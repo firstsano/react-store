@@ -1,0 +1,6 @@
+# Ignore lib directory
+node_modules
+
+# Ignore build and serve files
+dist
+.cache
