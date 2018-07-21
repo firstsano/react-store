@@ -1,41 +1,51 @@
+import images from './../../web/img/*.png';
+
 const products = [
     {
-        imageUrl: '/web/img/wiedzmin-1.png',
+        id: 1,
+        imageUrl: images['wiedzmin-1'],
         title: 'The Last Wish',
         price: 300
     },
     {
-        imageUrl: '/web/img/wiedzmin-2.png',
+        id: 2,
+        imageUrl: images['wiedzmin-2'],
         title: 'Sword of Destiny',
         price: 330
     },
     {
-        imageUrl: '/web/img/wiedzmin-3.png',
+        id: 3,
+        imageUrl: images['wiedzmin-3'],
         title: 'Blood of Elves',
         price: 420
     },
     {
-        imageUrl: '/web/img/wiedzmin-4.png',
+        id: 4,
+        imageUrl: images['wiedzmin-4'],
         title: 'Time of Contempt',
         price: 290
     },
     {
-        imageUrl: '/web/img/wiedzmin-5.png',
+        id: 5,
+        imageUrl: images['wiedzmin-5'],
         title: 'Baptism of Fire',
         price: 310
     },
     {
-        imageUrl: '/web/img/wiedzmin-6.png',
+        id: 6,
+        imageUrl: images['wiedzmin-6'],
         title: 'The Tower of the Swallow',
         price: 410
     },
     {
-        imageUrl: '/web/img/wiedzmin-7.png',
+        id: 7,
+        imageUrl: images['wiedzmin-7'],
         title: 'The Lady of the Lake',
         price: 370
     },
     {
-        imageUrl: '/web/img/wiedzmin-8.png',
+        id: 8,
+        imageUrl: images['wiedzmin-8'],
         title: 'Season of Storms',
         price: 385
     },
